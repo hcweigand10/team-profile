@@ -148,8 +148,8 @@ const createCard = (person, role) => {
             info = person.office
             break;
         case "Engineer":
-            extra = "Engineer"
-            info = person.github
+            extra = "Github"
+            info = `<a href="https://github.com/${person.github}" target="_blank">${person.github}</a>`
             break;
         case "Intern":
             extra = "School"
@@ -195,6 +195,7 @@ const createWebsite = () => {
         <header>
             <h1>Welcome to ${teamName}'s Roster!</h1>
         </header>  
+        <hr>
         <main class="container">
     
                 <div class="row ">

@@ -29,7 +29,7 @@ This repository can be cloned from github and then run from an integrated termin
     
 ## Usage
     
-In order to use, simply run the index.js file using "node index.js" and then answer the prompts
+![walkthroughGIF](./Assets/teamProfile-walkthrougGIF.gif)
     
     
 ## License 
